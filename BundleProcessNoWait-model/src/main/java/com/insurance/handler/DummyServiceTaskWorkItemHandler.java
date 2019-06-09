@@ -3,11 +3,11 @@ package com.insurance.handler;
 import org.kie.api.runtime.process.WorkItem;
 import org.kie.api.runtime.process.WorkItemHandler;
 import org.kie.api.runtime.process.WorkItemManager;
-//import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
-//import org.springframework.stereotype.Component;
+//import org.slf4j.Logger;
+import org.springframework.stereotype.Component;
 
-//@Component("DummyServiceTask")
+@Component
 public class DummyServiceTaskWorkItemHandler implements WorkItemHandler {
 
     //private static final Logger logger = LoggerFactory.getLogger(DummyServiceTaskWorkItemHandler.class);
